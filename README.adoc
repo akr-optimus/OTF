@@ -6,6 +6,8 @@ of network protocols, web applications, security vulnerabilities to
 name a few. OTF is mostly implemented in groovy and makes heavy use of
 existing Java libraries that are licensed under Free/Open Licenses.
 
+image:https://travis-ci.org/benignbala/OTF.svg?branch=master["Build Status", link="https://travis-ci.org/benignbala/OTF"]
+
 == OTF Goals
 
 Almost every organisation in the software industry has at least half a
