@@ -1,2 +1,0 @@
-# OTF
-Open Test Framework

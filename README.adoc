@@ -1,0 +1,38 @@
+= OTF
+
+Open Test Framework is an attempt at creating a generic test engine
+that would cater to most common testing needs. It will handle testing
+of network protocols, web applications, security vulnerabilities to
+name a few. OTF is mostly implemented in groovy and makes heavy use of
+existing Java libraries that are licensed under Free/Open Licenses.
+
+== OTF Goals
+
+Almost every organisation in the software industry has at least half a
+dozen home grown frameworks that caters to the testing needs of that
+organisation. And that results in a huge amount of effort spent on the
+software infrastructre needed to assure the quality of the software
+products created by that organisation. Having said that, in this world
+where quality is supreme, automated testing of software is the only
+choice we have to ensure quality.
+
+The main aim of OTF is to avoid this redundancy in effort put into the
+development of test frameworks. Instead, we want test engineers invest
+more time on scripting creative and innovative test cases. OTF
+provides has a core that provides the building blocks necessary to
+automate the testing of software products.
+
+This is just a start and we are building it. Once  we have the initial
+components ready, you will be able to test
+
+* Common network protocols like HTTP, SMTP, IMAP, POP3, FTP, ICAP etc.
+* Web interfaces (We have a wrapper over Selenium)
+* Common Security Vulnerabilities.
+
+== Technology
+
+OTF is implemented mostly in Groovy and some parts in Java. But it
+uses available Java libraries extensively. This makes it easier for
+people to use it across all popular operating systems. This has been
+built on JDK8 with state of the art Gradle build tool. But the
+artifacts can be obtained from maven repositories and bintray as well.
